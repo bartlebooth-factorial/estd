@@ -8,6 +8,9 @@ place to put it so that I could use it at any time.
 
 Contents
 ---
+queue.lisp
+: A very basic queue data structure intended for use in recursive functions
+
 sections.lisp
 : Functions for getting the sections of a list before or after an element or a
   predicate match
