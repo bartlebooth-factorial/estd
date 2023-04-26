@@ -2,7 +2,7 @@
 ;; -- desc: get the parts of a list relative to an element or predicate
 ;; -- uses: whenever you need to do this ^
 
-(defun until (elem lst)
+(defun before (elem lst)
   (labels ((rec (l acc)
 	     (if l
 		 (let ((cur (car l)))
