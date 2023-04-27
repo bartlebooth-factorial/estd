@@ -12,8 +12,8 @@ queue.lisp
 : A very basic queue data structure intended for use in recursive functions
 
 sections.lisp
-: Functions for getting the sections of a list before or after an element or a
-  predicate match
+: Functions for getting sections of a list relative to an element or a
+  predicate match (e.g. before, after, between)
 
 stack.lisp
 : A very basic stack data structure intended for use in recursive functions
